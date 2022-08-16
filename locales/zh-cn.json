@@ -1,0 +1,13 @@
+{
+    "frank.gamepad.name": "手柄",
+    "frank.gamepad.description": "使用手柄来控制作品",
+    "frank.gamepad.gamepadName": "手柄名称",
+    "frank.gamepad.onPress": "当 [BUTTON] 被按下",
+    "frank.gamepad.isPress": "[BUTTON] 是否按下？",
+    "frank.gamepad.joystick": "摇杆 [STICKS] 的 [VALUE]",
+    "frank.gamepad.isConnect": "是否连接？",
+    "frank.gamepad.menu.x": "位置X",
+    "frank.gamepad.menu.y": "位置Y",
+    "frank.gamepad.menu.degrees": "角度",
+    "frank.gamepad.menu.radians": "弧度"
+}

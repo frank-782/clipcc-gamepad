@@ -1,0 +1,14 @@
+{
+    "frank.gamepad.name": "Gamepad",
+    "frank.gamepad.description": "Gamepad",
+    "frank.gamepad.gamepadName": "gamepad name",
+    "frank.gamepad.onPress": "on [BUTTON] press",
+    "frank.gamepad.isPress": "[BUTTON] is Press?",
+    "frank.gamepad.joystick": "joystick [STICKS] of [VALUE]",
+    "frank.gamepad.menu.x": "POSITION X",
+    "frank.gamepad.menu.y": "POSITION Y",
+    "frank.gamepad.menu.degrees": "DEGREES",
+    "frank.gamepad.menu.radians": "RADIANS",
+    "frank.gamepad.isConnect": "IsConnect?",
+    "frank.gamepad.hello": "say helo"
+}
