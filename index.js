@@ -116,6 +116,13 @@ class GamepadExtension extends Extension {
             function: args => this.joystickPress(args.STICKS, args.VALUE)
         });
     }
+    onUninit() {
+        window.removeEventListener('gc.controller.found', this.onFoundGamepad, false);
+        window.removeEventListener('gc.button.press', this.onGamepadPress, false);
+        window.removeEventListener('gc.button.hold', this.onGamepadPress, false);
+        window.removeEventListener('gc.button.release', this.onGamepadPress, false);
+        api.removeCategory('frank.gamepad.category')
+    }
     buttonMenu () {
         if (!this.gamepad) return [['','']]
             const buttons = [];
